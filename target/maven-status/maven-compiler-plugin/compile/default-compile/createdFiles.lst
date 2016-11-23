@@ -1,0 +1,3 @@
+tr\org\imagehash\elastic\plugin\hamming\HammingDistanceScriptFactory.class
+tr\org\imagehash\elastic\plugin\hamming\HammingDistanceScriptFactory$HammingDistanceScript.class
+tr\org\imagehash\elastic\plugin\HammingDistanceNativeScriptPlugin.class

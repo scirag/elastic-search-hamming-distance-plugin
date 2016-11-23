@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="HammingDistanceTest" time="0.062" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\PROJELER\cebir\elasticsearch-hamming-master\elasticsearch-hamming"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PC\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.1\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="E:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;e:\Rtools\bin;e:\Rtools\gcc-4.6.3\bin;e:\Program Files\ImageMagick-6.8.9-Q16;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\Python34\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\GDAL;C:\Program Files\EmEditor;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;F:\PROJELER\UUP\arac\apache-ant-1.9.4\bin;F:\PROJELER\UUP\arac\apache-storm\apache-storm-0.9.3\bin;F:\PROJELER\UUP\arac\optipng-0.7.5-win32;F:\PROJELER\UUP\arac\vert.x-2.1.5\bin;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;C:\Program Files\cURL\bin;C:\Program Files\TortoiseSVN\bin;F:\PROJELER\Bulut\lab\play-1.2.7.2;E:\Program Files (x86)\Brackets1.4\command;E:\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Program Files (x86)\CodeBlocks\MinGW\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;E:\Go\bin;e:\Program Files\MATLAB\R2016a\bin;e:\Anaconda3;e:\Anaconda3\Scripts;e:\Anaconda3\Library\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;E:\Users\PC\AppData\Local\Android\sdk1\platform-tools;E:\Python35\Scripts\;E:\Python35\;e:\Program Files\Boot2Docker for Windows;C:\Users\PC\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\PC"/>
+    <property name="user.timezone" value="Asia/Istanbul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="user.name" value="PC"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.1\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="tr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="E:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;E:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;E:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;E:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;E:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;E:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;E:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;E:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.1\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="HammingDistanceTest" name="maximumHammingDistance" time="0"/>
+</testsuite>
